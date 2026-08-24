@@ -71,10 +71,10 @@ Prompts that work well:
 | Tier | Price | Included |
 |---|---|---|
 | Free | 0 | 20 queries/day |
-| Founding | 49 EUR/month | Unlimited queries, first 50 seats only, price locked while subscribed |
-| Pro | 99 EUR/month | Unlimited queries |
+| Founding | [49 EUR every 4 weeks](https://buy.stripe.com/9B68wP4lqfZCh06gRfawo1E) | Unlimited queries, first 50 seats only, price locked while subscribed |
+| Pro | [99 EUR every 4 weeks](https://buy.stripe.com/7sYbJ1dW0dRubFMeJ7awo1F) | Unlimited queries |
 
-To upgrade: email ben@benjix.com with subject "Cerebro founding". Stripe checkout links land here shortly.
+Subscribe with the link for your tier: your API key arrives at the checkout email within a few hours. Questions: ben@benjix.com.
 
 ## Data and licensing
 
