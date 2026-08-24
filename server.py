@@ -19,9 +19,9 @@ API_URL = os.environ.get("CEREBRO_API_URL", "https://cerebro.benjix.com").rstrip
 API_KEY = os.environ.get("CEREBRO_API_KEY", "")
 VERSION = "0.1.0"
 SUPPORTED_PROTOCOLS = {"2024-11-05", "2025-03-26", "2025-06-18"}
-GET_KEY_HINT = ("No CEREBRO_API_KEY set. Get a free key (20 queries/day): "
-                "curl -X POST " + API_URL + "/api/subscribe "
-                "-H 'Content-Type: application/json' -d '{\"email\":\"you@company.com\"}'")
+GET_KEY_HINT = ("No CEREBRO_API_KEY set. Get your key at " + API_URL + "/connect "
+                "(subscription, issued right after checkout), or email ben@benjix.com "
+                "for a 20-query demo key.")
 
 KEEP_FIELDS = ("id", "source", "kind", "country", "buyer", "title", "title_en",
                "category", "cpv", "value_eur", "value_amount", "value_currency",

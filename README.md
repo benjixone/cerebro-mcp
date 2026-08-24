@@ -22,20 +22,14 @@ Values are normalized to EUR (ECB rates), cross-portal duplicates are folded, da
 
 ## Quickstart (nothing to install)
 
-1. Get your personal link at **[cerebro.benjix.com/connect](https://cerebro.benjix.com/connect)** (email in, link out, 20 free queries to try it).
+1. Pick a seat at **[cerebro.benjix.com/connect](https://cerebro.benjix.com/connect)**: Stripe checkout, your personal link is issued right after payment. Want a test drive first? Email ben@benjix.com for a 20-query demo key.
 2. Connect it:
 
 ```bash
 claude mcp add --transport http cerebro https://cerebro.benjix.com/mcp/YOUR_KEY
 ```
 
-On claude.ai or Claude Desktop: Settings, Connectors, "Add custom connector", name it Cerebro, paste your link.
-
-Or get the same link from your terminal:
-
-```bash
-curl -X POST https://cerebro.benjix.com/api/subscribe -H 'Content-Type: application/json' -d '{"email":"you@company.com"}'
-```
+On claude.ai or Claude Desktop: Settings, Connectors, "Add custom connector", name it Cerebro, paste your link. Cursor, Copilot, Gemini CLI and any MCP client: add a remote MCP server with your link as the URL.
 
 ## Run it locally instead (optional)
 
@@ -79,7 +73,7 @@ Prompts that work well:
 
 | Tier | Price | Included |
 |---|---|---|
-| Demo | 0 | 20 queries, one time, no card |
+| Demo | 0 | 20 queries, one time, by request: ben@benjix.com |
 | Founding | [49 EUR every 4 weeks](https://buy.stripe.com/9B68wP4lqfZCh06gRfawo1E) | Unlimited queries, first 50 seats only, price locked while subscribed |
 | Pro | [99 EUR every 4 weeks](https://buy.stripe.com/7sYbJ1dW0dRubFMeJ7awo1F) | Unlimited queries |
 
