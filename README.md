@@ -74,8 +74,8 @@ Prompts that work well:
 | Tier | Price | Included |
 |---|---|---|
 | Demo | 0 | 20 queries, one time, by request: ben@benjix.com |
-| Founding | [49 EUR every 4 weeks](https://buy.stripe.com/9B68wP4lqfZCh06gRfawo1E) | Unlimited queries, first 50 seats only, price locked while subscribed |
-| Pro | [99 EUR every 4 weeks](https://buy.stripe.com/7sYbJ1dW0dRubFMeJ7awo1F) | Unlimited queries |
+| Founding | [7 days free, then 49 EUR every 4 weeks](https://buy.stripe.com/bJe4gzcQb47wfKk9671RC00) | Unlimited queries, first 50 seats only, price locked while subscribed |
+| Pro | [7 days free, then 99 EUR every 4 weeks](https://buy.stripe.com/00w28rdUf33sfKk9671RC01) | Unlimited queries |
 
 Pay with the same email your key is registered to and the same connection link upgrades instantly, nothing to reinstall. Questions: ben@benjix.com.
 
