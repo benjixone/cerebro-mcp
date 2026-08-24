@@ -20,15 +20,26 @@ Dashboards show everyone the same list. Your agent knows your company. Connect C
 
 Values are normalized to EUR (ECB rates), cross-portal duplicates are folded, data refreshes daily. A grants/funding lane (EU Funding & Tenders calls) is next.
 
-## Quickstart
+## Quickstart (nothing to install)
 
-1. Get a free API key (20 queries/day), straight from your terminal:
+1. Get your personal link at **[cerebro.benjix.com/connect](https://cerebro.benjix.com/connect)** (email in, link out, 20 free queries to try it).
+2. Connect it:
+
+```bash
+claude mcp add --transport http cerebro https://cerebro.benjix.com/mcp/YOUR_KEY
+```
+
+On claude.ai or Claude Desktop: Settings, Connectors, "Add custom connector", name it Cerebro, paste your link.
+
+Or get the same link from your terminal:
 
 ```bash
 curl -X POST https://cerebro.benjix.com/api/subscribe -H 'Content-Type: application/json' -d '{"email":"you@company.com"}'
 ```
 
-2. Clone and connect. Claude Code:
+## Run it locally instead (optional)
+
+This repo is the identical server as a local stdio process, one stdlib Python file, no dependencies, no telemetry, your key is sent only to cerebro.benjix.com:
 
 ```bash
 git clone https://github.com/benjixone/cerebro-mcp
@@ -49,8 +60,6 @@ Claude Desktop (`claude_desktop_config.json`):
 }
 ```
 
-Requires Python 3.8+. No dependencies, nothing to install, no telemetry: the server is one readable file and your key is sent only to cerebro.benjix.com.
-
 ## Tools
 
 | Tool | What it does |
@@ -70,11 +79,11 @@ Prompts that work well:
 
 | Tier | Price | Included |
 |---|---|---|
-| Free | 0 | 20 queries/day |
+| Demo | 0 | 20 queries, one time, no card |
 | Founding | [49 EUR every 4 weeks](https://buy.stripe.com/9B68wP4lqfZCh06gRfawo1E) | Unlimited queries, first 50 seats only, price locked while subscribed |
 | Pro | [99 EUR every 4 weeks](https://buy.stripe.com/7sYbJ1dW0dRubFMeJ7awo1F) | Unlimited queries |
 
-Subscribe with the link for your tier: your API key arrives at the checkout email within a few hours. Questions: ben@benjix.com.
+Pay with the same email your key is registered to and the same connection link upgrades instantly, nothing to reinstall. Questions: ben@benjix.com.
 
 ## Data and licensing
 
