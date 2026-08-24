@@ -22,18 +22,18 @@ Values are normalized to EUR (ECB rates), cross-portal duplicates are folded, da
 
 ## Quickstart (nothing to install)
 
-1. Pick a seat at **[cerebro.benjix.com/connect](https://cerebro.benjix.com/connect)**: Stripe checkout, your personal link is issued right after payment. Want a test drive first? Email ben@benjix.com for a 20-query demo key.
+1. Pick a seat at **[cerebroradar.com/connect](https://cerebroradar.com/connect)**: Stripe checkout, your personal link is issued right after payment. Want a test drive first? Email ben@benjix.com for a 20-query demo key.
 2. Connect it:
 
 ```bash
-claude mcp add --transport http cerebro https://cerebro.benjix.com/mcp/YOUR_KEY
+claude mcp add --transport http cerebro https://cerebroradar.com/mcp/YOUR_KEY
 ```
 
 On claude.ai or Claude Desktop: Settings, Connectors, "Add custom connector", name it Cerebro, paste your link. Cursor, Copilot, Gemini CLI and any MCP client: add a remote MCP server with your link as the URL.
 
 ## Run it locally instead (optional)
 
-This repo is the identical server as a local stdio process, one stdlib Python file, no dependencies, no telemetry, your key is sent only to cerebro.benjix.com:
+This repo is the identical server as a local stdio process, one stdlib Python file, no dependencies, no telemetry, your key is sent only to cerebroradar.com:
 
 ```bash
 git clone https://github.com/benjixone/cerebro-mcp

@@ -15,7 +15,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-API_URL = os.environ.get("CEREBRO_API_URL", "https://cerebro.benjix.com").rstrip("/")
+API_URL = os.environ.get("CEREBRO_API_URL", "https://cerebroradar.com").rstrip("/")
 API_KEY = os.environ.get("CEREBRO_API_KEY", "")
 VERSION = "0.1.0"
 SUPPORTED_PROTOCOLS = {"2024-11-05", "2025-03-26", "2025-06-18"}
