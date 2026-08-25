@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.benjixone/cerebro-mcp",
+  "description": "Government tenders, awards and pre-tender pipelines from 21 official sources as MCP tools.",
+  "repository": {
+    "url": "https://github.com/benjixone/cerebro-mcp",
+    "source": "github"
+  },
+  "version": "0.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cerebroradar.com/mcp",
+      "headers": [
+        {
+          "description": "Your Cerebro API key (crb_...), issued at https://cerebroradar.com/connect",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "X-API-Key"
+        }
+      ]
+    }
+  ]
+}
